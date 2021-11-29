@@ -59,7 +59,7 @@ public class N11 {
 
         Thread.sleep(5000);
         WebElement searchbar=driver.findElement(By.xpath("//input[@id='searchData']"));
-        searchbar.sendKeys("iphone");
+        searchbar.sendKeys("samsung");
         driver.findElement(By.xpath("//a[@title='ARA']")).click();
 
 
